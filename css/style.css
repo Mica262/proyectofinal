@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+ body{
+    background-color: rgb(243, 167, 96);
+ }
+
+nav {
+    background-color: rgb(221, 122, 2)5, 189, 134);
+    padding: 1rem;
+
+}
+
+.Menú li {
+    background-color: lightslategray;
+    padding: 5px;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+main{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section{
+    color: black;
+    margin: 3px;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(241, 223, 177);
+}
+
+h1{
+    padding: 10px;
+    text-align: center;
+    font-style: oblique;
+}
+
+.lista{
+    margin: 20px;
+    list-style-type: circle;
+}
+
+img{
+    width: 250px;
+    height: 150px;
+    opacity: 0.8;
+    border: 3px double grey;
+}
+
+picture{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+img:hover {
+    opacity: 1;
+    border: solid rgb(156, 148, 148) 3px;
+}
+
+.div1{
+    width: 400px;
+    height: 250px;
+    margin: 20px;
+    padding: 20px;
+    overflow: auto;
+}
+
+.div2{
+    width: 400px;
+    height: 250px;
+    margin: 20px;
+    padding: 20px;
+    overflow: auto;
+}
+
+.div3{
+    width: 400px;
+    height: 250px;
+    margin: 20px;
+    padding: 20px;
+}
+
+h2{
+    padding: 10px;
+    text-align: center;
+    font-style: oblique;
+}
+
+h3{
+    padding: 10px;
+    text-align: center;
+    font-style: oblique;
+}
+
+footer{
+    background-color:  dimgray;
+    color: darkblue;
+
+}
+
+.ubicación{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media  screen and (max-width: 768px) {
+    .contenedor {
+        grid-template-areas: 
+        "header header"
+        "main main"
+        "form form"
+        "footer footer"
+        ;
+    }    
+}
